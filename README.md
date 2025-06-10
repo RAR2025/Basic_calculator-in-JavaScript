@@ -1,4 +1,4 @@
-   const readlineSync = require("readline-sync");
+const readlineSync = require("readline-sync");
 const num1 = Number(readlineSync.question("pls enter the first number = "));
 const num2 = Number(readlineSync.question("pls enter Second number = "));
 const op = String(readlineSync.question("please enter the operator "));
